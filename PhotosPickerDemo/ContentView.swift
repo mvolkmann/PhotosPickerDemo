@@ -1,21 +1,19 @@
-//
-//  ContentView.swift
-//  PhotosPickerDemo
-//
-//  Created by Mark Volkmann on 10/5/22.
-//
-
 import SwiftUI
 
+// See the YouTube video from Stewart Lynch at
+// https://www.youtube.com/watch?v=gfUBKhZLcK0.
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            SingleImagePicker()
+                .tabItem {
+                    Label("Single Image", systemImage: "photo")
+                }
+            MultipleImagePicker()
+                .tabItem {
+                    Label("Multiple Images", systemImage: "photo.on.rectangle.angled")
+                }
         }
-        .padding()
     }
 }
 

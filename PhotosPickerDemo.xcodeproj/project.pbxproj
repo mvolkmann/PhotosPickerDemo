@@ -11,6 +11,8 @@
 		1A62488328EE53DB00AD046A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62488228EE53DB00AD046A /* ContentView.swift */; };
 		1A62488528EE53DC00AD046A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A62488428EE53DC00AD046A /* Assets.xcassets */; };
 		1A62488828EE53DC00AD046A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A62488728EE53DC00AD046A /* Preview Assets.xcassets */; };
+		1A62488F28EE544B00AD046A /* SingleImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62488E28EE544B00AD046A /* SingleImagePicker.swift */; };
+		1A62489128EE547A00AD046A /* MultipleImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62489028EE547A00AD046A /* MultipleImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1A62488228EE53DB00AD046A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A62488428EE53DC00AD046A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A62488728EE53DC00AD046A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A62488E28EE544B00AD046A /* SingleImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImagePicker.swift; sourceTree = "<group>"; };
+		1A62489028EE547A00AD046A /* MultipleImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				1A62488028EE53DB00AD046A /* PhotosPickerDemoApp.swift */,
 				1A62488228EE53DB00AD046A /* ContentView.swift */,
+				1A62488E28EE544B00AD046A /* SingleImagePicker.swift */,
+				1A62489028EE547A00AD046A /* MultipleImagePicker.swift */,
 				1A62488428EE53DC00AD046A /* Assets.xcassets */,
 				1A62488628EE53DC00AD046A /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A62488328EE53DB00AD046A /* ContentView.swift in Sources */,
+				1A62489128EE547A00AD046A /* MultipleImagePicker.swift in Sources */,
+				1A62488F28EE544B00AD046A /* SingleImagePicker.swift in Sources */,
 				1A62488128EE53DB00AD046A /* PhotosPickerDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
