@@ -13,6 +13,7 @@
 		1A62488828EE53DC00AD046A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A62488728EE53DC00AD046A /* Preview Assets.xcassets */; };
 		1A62488F28EE544B00AD046A /* SingleImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62488E28EE544B00AD046A /* SingleImagePicker.swift */; };
 		1A62489128EE547A00AD046A /* MultipleImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62489028EE547A00AD046A /* MultipleImagePicker.swift */; };
+		1A62489328EE555C00AD046A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A62489228EE555C00AD046A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1A62488728EE53DC00AD046A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A62488E28EE544B00AD046A /* SingleImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImagePicker.swift; sourceTree = "<group>"; };
 		1A62489028EE547A00AD046A /* MultipleImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleImagePicker.swift; sourceTree = "<group>"; };
+		1A62489228EE555C00AD046A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		1A62487428EE53DB00AD046A = {
 			isa = PBXGroup;
 			children = (
+				1A62489228EE555C00AD046A /* README.md */,
 				1A62487F28EE53DB00AD046A /* PhotosPickerDemo */,
 				1A62487E28EE53DB00AD046A /* Products */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A62489328EE555C00AD046A /* README.md in Resources */,
 				1A62488828EE53DC00AD046A /* Preview Assets.xcassets in Resources */,
 				1A62488528EE53DC00AD046A /* Assets.xcassets in Resources */,
 			);
