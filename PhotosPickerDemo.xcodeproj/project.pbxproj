@@ -14,7 +14,7 @@
 		1A62488F28EE544B00AD046A /* SingleImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62488E28EE544B00AD046A /* SingleImagePicker.swift */; };
 		1A62489128EE547A00AD046A /* MultipleImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62489028EE547A00AD046A /* MultipleImagePicker.swift */; };
 		1A62489328EE555C00AD046A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A62489228EE555C00AD046A /* README.md */; };
-		1ACFF76A28EFAC7C0058533A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFF76928EFAC7C0058533A /* ImagePicker.swift */; };
+		1ACFF76A28EFAC7C0058533A /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFF76928EFAC7C0058533A /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		1A62488E28EE544B00AD046A /* SingleImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImagePicker.swift; sourceTree = "<group>"; };
 		1A62489028EE547A00AD046A /* MultipleImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleImagePicker.swift; sourceTree = "<group>"; };
 		1A62489228EE555C00AD046A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1ACFF76928EFAC7C0058533A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1ACFF76928EFAC7C0058533A /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			children = (
 				1A62488028EE53DB00AD046A /* PhotosPickerDemoApp.swift */,
 				1A62488428EE53DC00AD046A /* Assets.xcassets */,
-				1ACFF76928EFAC7C0058533A /* ImagePicker.swift */,
+				1ACFF76928EFAC7C0058533A /* ImageLoader.swift */,
 				1ACFF76B28EFACAC0058533A /* Views */,
 				1A62488628EE53DC00AD046A /* Preview Content */,
 			);
@@ -160,7 +160,7 @@
 			files = (
 				1A62488328EE53DB00AD046A /* ContentView.swift in Sources */,
 				1A62489128EE547A00AD046A /* MultipleImagePicker.swift in Sources */,
-				1ACFF76A28EFAC7C0058533A /* ImagePicker.swift in Sources */,
+				1ACFF76A28EFAC7C0058533A /* ImageLoader.swift in Sources */,
 				1A62488F28EE544B00AD046A /* SingleImagePicker.swift in Sources */,
 				1A62488128EE53DB00AD046A /* PhotosPickerDemoApp.swift in Sources */,
 			);

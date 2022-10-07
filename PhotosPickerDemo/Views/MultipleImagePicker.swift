@@ -2,21 +2,26 @@ import PhotosUI
 import SwiftUI
 
 struct MultipleImagePicker: View {
-    @StateObject var imagePicker = ImagePicker()
+    @StateObject var imageLoader = ImageLoader()
 
     let columns = [GridItem(.adaptive(minimum: 100))]
 
     var body: some View {
         NavigationStack {
             VStack {
-                if imagePicker.images.isEmpty {
+                if imageLoader.images.isEmpty {
                     Text("Tap upper-right button\nto select multiple photos.")
                         .multilineTextAlignment(.center)
                 } else {
                     ScrollView {
                         LazyVGrid(columns: columns, spacing: 20) {
-                            ForEach(0 ..< imagePicker.images.count, id: \.self) { index in
-                                imagePicker.images[index].resizable().scaledToFit()
+                            ForEach(
+                                0 ..< imageLoader.images.count,
+                                id: \.self
+                            ) { index in
+                                imageLoader.images[index]
+                                    .resizable()
+                                    .scaledToFit()
                             }
                         }
                     }
@@ -27,7 +32,7 @@ struct MultipleImagePicker: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     PhotosPicker(
-                        selection: $imagePicker.imageSelections,
+                        selection: $imageLoader.imageSelections,
                         maxSelectionCount: 10,
                         matching: .images,
                         photoLibrary: .shared()
@@ -36,7 +41,6 @@ struct MultipleImagePicker: View {
                             .imageScale(.large)
                     }
                 }
-
             }
         }
     }

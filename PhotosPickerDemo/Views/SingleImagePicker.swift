@@ -2,12 +2,12 @@ import PhotosUI
 import SwiftUI
 
 struct SingleImagePicker: View {
-    @StateObject var imagePicker = ImagePicker()
+    @StateObject var imageLoader = ImageLoader()
 
     var body: some View {
         NavigationStack {
             VStack {
-                if let image = imagePicker.image {
+                if let image = imageLoader.image {
                     image.resizable().scaledToFit()
                 } else {
                     Text("Tap upper-right button\nto select a photo.")
@@ -19,7 +19,7 @@ struct SingleImagePicker: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     PhotosPicker(
-                        selection: $imagePicker.imageSelection,
+                        selection: $imageLoader.imageSelection,
                         matching: .images,
                         photoLibrary: .shared()
                     ) {
