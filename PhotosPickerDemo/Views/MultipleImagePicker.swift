@@ -10,7 +10,8 @@ struct MultipleImagePicker: View {
         NavigationStack {
             VStack {
                 if imagePicker.images.isEmpty {
-                    Text("Tap button in menu bar to select multiple photos.")
+                    Text("Tap upper-right button\nto select multiple photos.")
+                        .multilineTextAlignment(.center)
                 } else {
                     ScrollView {
                         LazyVGrid(columns: columns, spacing: 20) {

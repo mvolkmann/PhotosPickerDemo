@@ -10,7 +10,8 @@ struct SingleImagePicker: View {
                 if let image = imagePicker.image {
                     image.resizable().scaledToFit()
                 } else {
-                    Text("Tap button in menu bar to select a photo.")
+                    Text("Tap upper-right button\nto select a photo.")
+                        .multilineTextAlignment(.center)
                 }
             }
             .padding()

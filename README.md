@@ -7,4 +7,4 @@ https://www.youtube.com/watch?v=gfUBKhZLcK0.
 
 When testing in Preview or Simulator,
 don't select the image containing red flowers.
-There is some issue with that image that prevents loading it.
+There is an issue with that image that prevents loading it.
