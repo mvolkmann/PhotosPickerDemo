@@ -32,7 +32,9 @@ class ImagePicker: ObservableObject {
         }
     }
 
-    func loadImage(from imageSelection: PhotosPickerItem?) async throws -> Image? {
+    private func loadImage(
+        from imageSelection: PhotosPickerItem?
+    ) async throws -> Image? {
         guard let data = try await imageSelection?.loadTransferable(
             type: Data.self
         ) else { return nil }
@@ -42,7 +44,9 @@ class ImagePicker: ObservableObject {
         return Image(uiImage: uiImage)
     }
 
-    func loadTransferable(from selection: PhotosPickerItem?) async throws {
+    private func loadTransferable(
+        from selection: PhotosPickerItem?
+    ) async throws {
         do {
             self.image = try await loadImage(from: selection)
         } catch {
@@ -51,7 +55,9 @@ class ImagePicker: ObservableObject {
         }
     }
 
-    func loadTransferable(from imageSelections: [PhotosPickerItem]) async throws {
+    private func loadTransferable(
+        from imageSelections: [PhotosPickerItem]
+    ) async throws {
         do {
             for selection in imageSelections {
                 if let image = try await loadImage(from: selection) {

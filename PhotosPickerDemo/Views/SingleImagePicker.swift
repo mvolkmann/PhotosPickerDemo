@@ -27,14 +27,7 @@ struct SingleImagePicker: View {
                             .imageScale(.large)
                     }
                 }
-
             }
         }
-    }
-}
-
-struct SingleImagePicker_Previews: PreviewProvider {
-    static var previews: some View {
-        SingleImagePicker()
     }
 }

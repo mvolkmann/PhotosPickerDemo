@@ -41,8 +41,3 @@ struct MultipleImagePicker: View {
         }
     }
 }
-struct MultipleImagePicker_Previews: PreviewProvider {
-    static var previews: some View {
-        MultipleImagePicker()
-    }
-}
