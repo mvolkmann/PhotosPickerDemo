@@ -11,7 +11,10 @@ struct ContentView: View {
                 }
             MultipleImagePicker()
                 .tabItem {
-                    Label("Multiple Images", systemImage: "photo.on.rectangle.angled")
+                    Label(
+                        "Multiple Images",
+                        systemImage: "photo.on.rectangle.angled"
+                    )
                 }
         }
     }
