@@ -53,7 +53,7 @@ class ImageLoader: ObservableObject {
             }
         } catch {
             print("ImageLoader error:", error)
-            image = nil
+            images = []
         }
     }
 
